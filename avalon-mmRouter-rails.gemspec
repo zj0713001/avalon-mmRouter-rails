@@ -6,11 +6,11 @@ require 'avalon/mmRouter/rails/version'
 Gem::Specification.new do |spec|
   spec.name          = "avalon-mmRouter-rails"
   spec.version       = Avalon::MmRouter::Rails::VERSION
-  spec.authors       = ["iron"]
+  spec.authors       = ["zj0713001"]
   spec.email         = ["zj0713001@gmail.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
-  spec.homepage      = ""
+  spec.summary       = %q{Use javascript framework Avalon mmRouter with Rails 3+}
+  spec.description   = %q{his gem provides javascript framework Avalon mmRouter for your Rails 3+ application.}
+  spec.homepage      = "https://github.com/zj0713001/avalon-mmRouter-rails"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
